@@ -6,7 +6,7 @@ Spree::Core::Engine.routes.append do
       end
     end
 
-    # delete '/volume_prices/:id', :to => "volume_prices#destroy", :as => :volume_price
+    delete '/volume_prices/:id', :to => "volume_prices#destroy", :as => :volume_price
   end
 end
 
